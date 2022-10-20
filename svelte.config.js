@@ -9,6 +9,9 @@ const config = {
 
 	kit: {
 		adapter: adapter()
+	},
+	csrf: {
+		checkOrigin: false // turning off csfr but there should maybe be a way to set the ORIGIN so that we don't have to turn this off
 	}
 };
 
